@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+jedi = "*"
+"flake8" = "*"
+invoke = "*"
+
+[packages]
+pip = "==18.0"
+numpy = "*"
+scipy = "*"
+jupyter-nbextensions-configurator = "*"
+matplotlib = "*"
+peony-twitter = "*"
+
+[requires]
+python_version = "3.7"
